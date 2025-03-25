@@ -1,0 +1,75 @@
+.r-wrapper{
+    background-color: white;
+    color: black;
+}
+
+.r-container{
+    padding: 1.5rem;
+    position: relative;
+}
+
+.r-head{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.r-head>p{
+    font-size: 1.5rem;
+    color: #646cff;
+}
+
+.r-card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.6rem;
+    max-width: max-content;
+    margin: auto;
+    padding: 1rem;
+}
+
+.r-card>img{
+    width: 300px;
+    height: 200px;
+    max-width: 15rem;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.r-card>:nth-child(2){
+    font-size: 1.2rem;
+}
+
+.r-card>:nth-child(3){
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #871F78;
+    font-weight: 600;
+}
+
+.r-card>:nth-child(4){
+    font-size: 0.7rem;
+    width: 15rem;
+}
+
+.r-card:hover{
+    scale: 1.025;
+    cursor: pointer;
+    background: linear-gradient(180deg, #fff, #F5E5FF);
+    border-radius: 20px;
+}
+
+.r-button{
+    position: absolute;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    top: -1rem;
+}
+

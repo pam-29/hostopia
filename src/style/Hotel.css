@@ -1,0 +1,14 @@
+.hotel-wrapper{
+    background-color: white;
+}
+
+.hotel-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.hotel-container>img{
+    width: 10rem;
+    height: 10rem;
+}
