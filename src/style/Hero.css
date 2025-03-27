@@ -6,8 +6,9 @@
 
 .hero-container{
     display: flex;
-    justify-content: space-between;
+    gap: 150px;
     align-items: flex-end;
+    justify-content: center;
     padding: 1.5rem;
 }
 
@@ -28,18 +29,12 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding-left: 7rem;
-}
-
-.hero-right{
-    padding-right: 7rem;
 }
 
 .hero-title{
     position: relative;
     z-index: 1;
 }
-
 
 .hero-title>h1{
     font-weight: 600;
@@ -95,4 +90,57 @@
 .stat>:nth-child(2){
     color: gray;
     font-size: 1.2rem;
+}
+
+
+@media screen and (max-width: 1400px){
+    .image-container{
+        width: 20rem;
+        height: 25rem;
+    }
+
+    .hero-title>h1{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .hero-container{
+        padding: 2rem;
+    }
+
+    .orange-circle{
+        right: 190px;
+        top: -30%;
+    }
+
+    .hero-left{
+        gap: 0.5rem;
+    }
+
+    span{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .image-container{
+        width: 15rem;
+        height: 20rem;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .image-container{
+        display: none;
+    }
+
+    .hero-title>h1{
+        line-height: 3rem;
+    }
+
+    .orange-circle{
+        right: 310px;
+        top: -20%;
+    }
 }

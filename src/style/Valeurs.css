@@ -19,3 +19,13 @@
     border-radius: 20px;
     box-shadow: 2px 2px 2px black;
 }
+
+@media screen and (max-width: 700px) {
+    .v-container>div{
+        margin: 50px 20px;
+    }
+
+    .v-container{
+        padding-left: 20px;
+    }
+}

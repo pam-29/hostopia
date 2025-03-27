@@ -14,3 +14,22 @@
     gap: 2rem;
     align-items: center;
 }
+
+.h-menu-mobile{
+    display: none;
+}
+
+.hambergerMenu{
+
+}
+
+@media screen and (max-width: 700px) {
+    .h-menu{
+        display: none;
+    }
+
+    .h-menu-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+}
