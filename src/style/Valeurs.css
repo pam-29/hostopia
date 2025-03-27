@@ -1,0 +1,21 @@
+.v-wrapper{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.v-container h2{
+    color: #646cff;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.v-container div{
+    margin: 50px 0;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+}

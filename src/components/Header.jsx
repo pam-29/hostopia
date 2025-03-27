@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '../assets/Logo.svg'
 import '../style/Header.css'
 
+
 function Header() {
     return (
             <section className="h-wrapper">
@@ -9,10 +10,10 @@ function Header() {
                     <img src={Logo} alt="Logo" width={100} />
 
                     <div className="h-menu">
-                        <a href="">Hôtels</a>
-                        <a href="">Nos valeurs</a>
-                        <a href="">Nous joindre</a>
-                        <a href="">Commencez</a>
+                        <a href="#accueil">Accueil</a>
+                        <a href="#hotels">Hôtels</a>
+                        <a href="#value">Nos valeurs</a>
+                        <a href="#contact">Nous joindre</a>
 
                         <button>
                         <a href="">Contact</a>
