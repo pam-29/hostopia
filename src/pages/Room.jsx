@@ -11,11 +11,12 @@ const SliderButton = () =>{
     const Swiper = useSwiper ();
     return (
         <div className="r-button">
-            <button onClick={()=>Swiper.slidePrev()}>&lt;</button>
-            <button onClick={()=>Swiper.slideNext()}>&gt;</button>
+            <button onClick={()=>Swiper.slidePrev()} className="r-prevButton">&lt;</button>
+            <button onClick={()=>Swiper.slideNext()} className="r-nextButton">&gt;</button>
         </div>
-    )
-}
+    );
+};
+
 function Room() {
     return (
         <section className="r-wrapper">
@@ -26,8 +27,8 @@ function Room() {
 
                 <Swiper {...SliderAction}>
                     <SliderButton />
-                    {
-                        ListHotels.map((listitem, key) => (
+                    
+                    {ListHotels.map((listitem, key) => (
                             <SwiperSlide key={key}>
                                 <div className="r-card">
                                     <img src={listitem.image} alt="" />

@@ -1,0 +1,19 @@
+.f-container{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-container p{
+    width: 37.5rem;
+}
+.f-right>.image-container{
+    border: none;
+    margin-top: 2rem;
+}
+
+.f-left>:nth-child(1){
+    color: #646cff;
+    font-size: 3rem;
+}
+

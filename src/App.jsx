@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Hero from './pages/Hero'
 import Hotels from './pages/Hotels'
 import Room from './pages/Room'
+import Footer from './pages/Footer'
 
 function App() {
   return(
@@ -13,6 +14,7 @@ function App() {
       </div>
         <Hotels />
         <Room />
+
     </div>
   )
 }
