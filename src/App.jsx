@@ -12,8 +12,7 @@ function App() {
         <Header/>
         <Hero />
       </div>
-        <Hotels />
-        <Room />
+
 
     </div>
   )
